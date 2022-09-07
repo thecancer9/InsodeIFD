@@ -1,0 +1,16 @@
+.bg-image{
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.bg-image-f{
+    background-image: url(../images/bg-features.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-image-p{
+    background-image: url(../images/bg-pricings.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,39 @@
+body {
+    background-color: #fdeefc;
+}
+
+.nav {
+    background-color: #eed5ff;
+}
+
+.button {
+    border-color: #FF4B9F;
+    background-color: #6B2293;
+    color: #ffffff;
+}
+
+.button:hover {
+    background-color: #FF4B9F;
+    border-color: #6B2293;
+    color: aliceblue;
+}
+
+.button:active{
+    background-color: #fd92c4;
+}
+
+.text{
+    color: #ffffff;
+}
+.text:hover{
+    background-color: #FF4B9F;
+    color: aliceblue;
+}
+.menu{
+    background-color: #6B2293;
+    color: #ffffff;
+}
+.alineacion{
+    justify-content: space-evenly;
+}
+
