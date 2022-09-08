@@ -1,11 +1,9 @@
 body {
     background-color: #fdeefc;
 }
-
-.nav {
-    background-color: #eed5ff;
+.bg-nav{
+    background-color: #da9bfc;
 }
-
 .button {
     border-color: #FF4B9F;
     background-color: #6B2293;
@@ -22,7 +20,8 @@ body {
     background-color: #fd92c4;
 }
 
-.text{
+
+.text-a{
     color: #ffffff;
 }
 .text:hover{
@@ -33,7 +32,17 @@ body {
     background-color: #6B2293;
     color: #ffffff;
 }
-.alineacion{
-    justify-content: space-evenly;
+.nav-a{
+    color: #ffffff;
+}
+.nav-a:hover{
+    background-color: #da9bfc;
+    color: #ffffff;
+    border-radius: 12px;
 }
 
+.text-z{
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 900;
+}
