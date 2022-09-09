@@ -2,7 +2,7 @@ body {
     background-color: #fdeefc;
 }
 .bg-nav{
-    background-color: #da9bfc;
+    background-color: #f0d4ff;
 }
 .button {
     border-color: #FF4B9F;
@@ -43,6 +43,6 @@ body {
 
 .text-z{
     color: #ffffff;
-    font-size: 52px;
+    font-size: 45px;
     font-weight: 900;
 }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <script src="../bootstrap/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/images.css">
+
+    <title>Sobre Nosotros</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-nav">
+        <div class="container-md">
+            <a class="navbar-brand" href="../index.html"><img src="../images/logoWeb.png" alt="" width="175" height="72"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item nav-a">
+                        <a class="nav-link active navbar-brand" aria-current="page" href="../index.html">Inicio</a>
+                    </li>                    
+                    <li class="nav-item dropdown nav-a">
+                        <a class="nav-link dropdown-toggle active navbar-brand" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Servicios
+                        </a>
+                        <ul class="dropdown-menu menu">
+                            <li><a class="dropdown-item text-a" href="#">Creditos</a></li>
+                            <li><a class="dropdown-item text-a" href="#">Ahorros</a></li>
+                            <li><a class="dropdown-item text-a" href="#">Seguro</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-a">
+                        <a class="nav-link active navbar-brand" href="#">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item nav-a">
+                        <a class="nav-link active navbar-brand" href="../html/convocatorias.html">Convocatorias</a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline button" type="submit">Acceder</button>                
+            </div>            
+        </div>
+    </nav>
+    <div class="modal fade" id="loginModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content mymodal">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Acesso</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="" class="col-form-label">Nombre de Usuario:</label>
+                            <input type="text" class="form-control in" placeholder="ingresu nombre de usuario">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Contraseña:</label>
+                            <input type="password" class="form-control in" placeholder="Ingrese su contraseña">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn close" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn success">Aceptar</button>
+                </div>
+            </div>
+          </div>
+    </div>
+</body>
+</html>
